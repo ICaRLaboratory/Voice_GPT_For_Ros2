@@ -1,0 +1,24 @@
+[1.581s] Invoking command in '/home/qwert/test_ws/src/voice_recognition': PYTHONPATH=/home/qwert/test_ws/build/voice_recognition/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qwert/test_ws/install/voice_recognition/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/voice_recognition build --build-base /home/qwert/test_ws/build/voice_recognition/build install --record /home/qwert/test_ws/build/voice_recognition/install.log --single-version-externally-managed install_data
+[1.888s] running egg_info
+[1.889s] writing ../../build/voice_recognition/voice_recognition.egg-info/PKG-INFO
+[1.889s] writing dependency_links to ../../build/voice_recognition/voice_recognition.egg-info/dependency_links.txt
+[1.889s] writing entry points to ../../build/voice_recognition/voice_recognition.egg-info/entry_points.txt
+[1.889s] writing requirements to ../../build/voice_recognition/voice_recognition.egg-info/requires.txt
+[1.890s] writing top-level names to ../../build/voice_recognition/voice_recognition.egg-info/top_level.txt
+[1.891s] reading manifest file '../../build/voice_recognition/voice_recognition.egg-info/SOURCES.txt'
+[1.893s] writing manifest file '../../build/voice_recognition/voice_recognition.egg-info/SOURCES.txt'
+[1.893s] running build
+[1.893s] running build_py
+[1.893s] copying voice_recognition/voice_recog.py -> /home/qwert/test_ws/build/voice_recognition/build/lib/voice_recognition
+[1.893s] running install
+[1.894s] running install_lib
+[1.895s] copying /home/qwert/test_ws/build/voice_recognition/build/lib/voice_recognition/voice_recog.py -> /home/qwert/test_ws/install/voice_recognition/lib/python3.10/site-packages/voice_recognition
+[1.895s] byte-compiling /home/qwert/test_ws/install/voice_recognition/lib/python3.10/site-packages/voice_recognition/voice_recog.py to voice_recog.cpython-310.pyc
+[1.896s] running install_data
+[1.896s] running install_egg_info
+[1.899s] removing '/home/qwert/test_ws/install/voice_recognition/lib/python3.10/site-packages/voice_recognition-0.0.0-py3.10.egg-info' (and everything under it)
+[1.899s] Copying ../../build/voice_recognition/voice_recognition.egg-info to /home/qwert/test_ws/install/voice_recognition/lib/python3.10/site-packages/voice_recognition-0.0.0-py3.10.egg-info
+[1.900s] running install_scripts
+[1.925s] Installing voice_recognition script to /home/qwert/test_ws/install/voice_recognition/lib/voice_recognition
+[1.925s] writing list of installed files to '/home/qwert/test_ws/build/voice_recognition/install.log'
+[1.958s] Invoked command in '/home/qwert/test_ws/src/voice_recognition' returned '0': PYTHONPATH=/home/qwert/test_ws/build/voice_recognition/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qwert/test_ws/install/voice_recognition/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/voice_recognition build --build-base /home/qwert/test_ws/build/voice_recognition/build install --record /home/qwert/test_ws/build/voice_recognition/install.log --single-version-externally-managed install_data

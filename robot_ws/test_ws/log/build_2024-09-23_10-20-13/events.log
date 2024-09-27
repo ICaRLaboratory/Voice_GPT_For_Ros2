@@ -1,0 +1,136 @@
+[0.000000] (-) TimerEvent: {}
+[0.000435] (gpt_clip) JobQueued: {'identifier': 'gpt_clip', 'dependencies': OrderedDict()}
+[0.000515] (gpt_node) JobQueued: {'identifier': 'gpt_node', 'dependencies': OrderedDict()}
+[0.000536] (voice_recognition) JobQueued: {'identifier': 'voice_recognition', 'dependencies': OrderedDict()}
+[0.000565] (gpt_clip) JobStarted: {'identifier': 'gpt_clip'}
+[0.005302] (gpt_node) JobStarted: {'identifier': 'gpt_node'}
+[0.007145] (voice_recognition) JobStarted: {'identifier': 'voice_recognition'}
+[0.099557] (-) TimerEvent: {}
+[0.199835] (-) TimerEvent: {}
+[0.300099] (-) TimerEvent: {}
+[0.400395] (-) TimerEvent: {}
+[0.500675] (-) TimerEvent: {}
+[0.600923] (-) TimerEvent: {}
+[0.701204] (-) TimerEvent: {}
+[0.788344] (gpt_node) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/gpt_node', 'build', '--build-base', '/home/qwert/test_ws/build/gpt_node/build', 'install', '--record', '/home/qwert/test_ws/build/gpt_node/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/qwert/test_ws/src/gpt_node', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'qwert', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'HOME': '/home/qwert', 'OLDPWD': '/home/qwert', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2149', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'qwert', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'qwert', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/qwert-27V70N-GR5SK:@/tmp/.ICE-unix/1830,unix/qwert-27V70N-GR5SK:/tmp/.ICE-unix/1830', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/75483692_b97e_486f_87a9_353dc99fd69c', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.H4GMU2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.142', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/qwert/test_ws/build/gpt_node', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'VTE_VERSION': '6800', 'PYTHONPATH': '/home/qwert/test_ws/build/gpt_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qwert/test_ws/install/gpt_node/lib/python3.10/site-packages:'}, 'shell': False}
+[0.793797] (gpt_clip) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/gpt_clip', 'build', '--build-base', '/home/qwert/test_ws/build/gpt_clip/build', 'install', '--record', '/home/qwert/test_ws/build/gpt_clip/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/qwert/test_ws/src/gpt_clip', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'qwert', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'HOME': '/home/qwert', 'OLDPWD': '/home/qwert', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2149', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'qwert', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'qwert', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/qwert-27V70N-GR5SK:@/tmp/.ICE-unix/1830,unix/qwert-27V70N-GR5SK:/tmp/.ICE-unix/1830', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/75483692_b97e_486f_87a9_353dc99fd69c', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.H4GMU2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.142', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/qwert/test_ws/build/gpt_clip', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'VTE_VERSION': '6800', 'PYTHONPATH': '/home/qwert/test_ws/build/gpt_clip/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qwert/test_ws/install/gpt_clip/lib/python3.10/site-packages:'}, 'shell': False}
+[0.795931] (voice_recognition) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/voice_recognition', 'build', '--build-base', '/home/qwert/test_ws/build/voice_recognition/build', 'install', '--record', '/home/qwert/test_ws/build/voice_recognition/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/qwert/test_ws/src/voice_recognition', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'qwert', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'HOME': '/home/qwert', 'OLDPWD': '/home/qwert', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2149', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'qwert', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'qwert', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/qwert-27V70N-GR5SK:@/tmp/.ICE-unix/1830,unix/qwert-27V70N-GR5SK:/tmp/.ICE-unix/1830', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/75483692_b97e_486f_87a9_353dc99fd69c', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.H4GMU2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.142', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/qwert/test_ws/build/voice_recognition', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'VTE_VERSION': '6800', 'PYTHONPATH': '/home/qwert/test_ws/build/voice_recognition/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qwert/test_ws/install/voice_recognition/lib/python3.10/site-packages:'}, 'shell': False}
+[0.801294] (-) TimerEvent: {}
+[0.901564] (-) TimerEvent: {}
+[0.965870] (gpt_node) StdoutLine: {'line': b'running egg_info\n'}
+[0.966395] (gpt_node) StdoutLine: {'line': b'creating ../../build/gpt_node/gpt_node.egg-info\n'}
+[0.966598] (gpt_node) StdoutLine: {'line': b'writing ../../build/gpt_node/gpt_node.egg-info/PKG-INFO\n'}
+[0.966710] (gpt_node) StdoutLine: {'line': b'writing dependency_links to ../../build/gpt_node/gpt_node.egg-info/dependency_links.txt\n'}
+[0.966847] (gpt_node) StdoutLine: {'line': b'writing entry points to ../../build/gpt_node/gpt_node.egg-info/entry_points.txt\n'}
+[0.966940] (gpt_node) StdoutLine: {'line': b'writing requirements to ../../build/gpt_node/gpt_node.egg-info/requires.txt\n'}
+[0.967034] (gpt_node) StdoutLine: {'line': b'writing top-level names to ../../build/gpt_node/gpt_node.egg-info/top_level.txt\n'}
+[0.967156] (gpt_node) StdoutLine: {'line': b"writing manifest file '../../build/gpt_node/gpt_node.egg-info/SOURCES.txt'\n"}
+[0.967524] (voice_recognition) StdoutLine: {'line': b'running egg_info\n'}
+[0.967859] (gpt_clip) StdoutLine: {'line': b'running egg_info\n'}
+[0.968176] (voice_recognition) StdoutLine: {'line': b'creating ../../build/voice_recognition/voice_recognition.egg-info\n'}
+[0.968370] (gpt_node) StdoutLine: {'line': b"reading manifest file '../../build/gpt_node/gpt_node.egg-info/SOURCES.txt'\n"}
+[0.968506] (gpt_node) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[0.968653] (voice_recognition) StdoutLine: {'line': b'writing ../../build/voice_recognition/voice_recognition.egg-info/PKG-INFO\n'}
+[0.968790] (voice_recognition) StdoutLine: {'line': b'writing dependency_links to ../../build/voice_recognition/voice_recognition.egg-info/dependency_links.txt\n'}
+[0.968963] (voice_recognition) StdoutLine: {'line': b'writing entry points to ../../build/voice_recognition/voice_recognition.egg-info/entry_points.txt\n'}
+[0.969106] (voice_recognition) StdoutLine: {'line': b'writing requirements to ../../build/voice_recognition/voice_recognition.egg-info/requires.txt\n'}
+[0.969228] (voice_recognition) StdoutLine: {'line': b'writing top-level names to ../../build/voice_recognition/voice_recognition.egg-info/top_level.txt\n'}
+[0.969365] (gpt_clip) StdoutLine: {'line': b'creating ../../build/gpt_clip/gpt_clip.egg-info\n'}
+[0.969470] (gpt_clip) StdoutLine: {'line': b'writing ../../build/gpt_clip/gpt_clip.egg-info/PKG-INFO\n'}
+[0.969592] (voice_recognition) StdoutLine: {'line': b"writing manifest file '../../build/voice_recognition/voice_recognition.egg-info/SOURCES.txt'\n"}
+[0.969684] (gpt_node) StdoutLine: {'line': b"writing manifest file '../../build/gpt_node/gpt_node.egg-info/SOURCES.txt'\n"}
+[0.969782] (gpt_clip) StdoutLine: {'line': b'writing dependency_links to ../../build/gpt_clip/gpt_clip.egg-info/dependency_links.txt\n'}
+[0.969899] (gpt_node) StdoutLine: {'line': b'running build\n'}
+[0.969996] (gpt_node) StdoutLine: {'line': b'running build_py\n'}
+[0.970107] (gpt_clip) StdoutLine: {'line': b'writing entry points to ../../build/gpt_clip/gpt_clip.egg-info/entry_points.txt\n'}
+[0.970200] (gpt_node) StdoutLine: {'line': b'creating /home/qwert/test_ws/build/gpt_node/build\n'}
+[0.970289] (gpt_node) StdoutLine: {'line': b'creating /home/qwert/test_ws/build/gpt_node/build/lib\n'}
+[0.970417] (gpt_node) StdoutLine: {'line': b'creating /home/qwert/test_ws/build/gpt_node/build/lib/gpt_node\n'}
+[0.970526] (gpt_node) StdoutLine: {'line': b'copying gpt_node/gpt_node.py -> /home/qwert/test_ws/build/gpt_node/build/lib/gpt_node\n'}
+[0.970618] (gpt_node) StdoutLine: {'line': b'copying gpt_node/__init__.py -> /home/qwert/test_ws/build/gpt_node/build/lib/gpt_node\n'}
+[0.970730] (gpt_clip) StdoutLine: {'line': b'writing requirements to ../../build/gpt_clip/gpt_clip.egg-info/requires.txt\n'}
+[0.970860] (gpt_clip) StdoutLine: {'line': b'writing top-level names to ../../build/gpt_clip/gpt_clip.egg-info/top_level.txt\n'}
+[0.971000] (gpt_node) StdoutLine: {'line': b'running install\n'}
+[0.971112] (gpt_clip) StdoutLine: {'line': b"writing manifest file '../../build/gpt_clip/gpt_clip.egg-info/SOURCES.txt'\n"}
+[0.971224] (gpt_node) StdoutLine: {'line': b'running install_lib\n'}
+[0.971308] (voice_recognition) StdoutLine: {'line': b"reading manifest file '../../build/voice_recognition/voice_recognition.egg-info/SOURCES.txt'\n"}
+[0.971425] (gpt_node) StdoutLine: {'line': b'creating /home/qwert/test_ws/install/gpt_node/lib/python3.10/site-packages/gpt_node\n'}
+[0.971566] (gpt_node) StdoutLine: {'line': b'copying /home/qwert/test_ws/build/gpt_node/build/lib/gpt_node/gpt_node.py -> /home/qwert/test_ws/install/gpt_node/lib/python3.10/site-packages/gpt_node\n'}
+[0.971692] (gpt_node) StdoutLine: {'line': b'copying /home/qwert/test_ws/build/gpt_node/build/lib/gpt_node/__init__.py -> /home/qwert/test_ws/install/gpt_node/lib/python3.10/site-packages/gpt_node\n'}
+[0.971831] (voice_recognition) StdoutLine: {'line': b"writing manifest file '../../build/voice_recognition/voice_recognition.egg-info/SOURCES.txt'\n"}
+[0.971942] (voice_recognition) StdoutLine: {'line': b'running build\n'}
+[0.972035] (voice_recognition) StdoutLine: {'line': b'running build_py\n'}
+[0.972129] (gpt_node) StdoutLine: {'line': b'byte-compiling /home/qwert/test_ws/install/gpt_node/lib/python3.10/site-packages/gpt_node/gpt_node.py to gpt_node.cpython-310.pyc\n'}
+[0.972223] (voice_recognition) StdoutLine: {'line': b'creating /home/qwert/test_ws/build/voice_recognition/build\n'}
+[0.972361] (voice_recognition) StdoutLine: {'line': b'creating /home/qwert/test_ws/build/voice_recognition/build/lib\n'}
+[0.972511] (voice_recognition) StdoutLine: {'line': b'creating /home/qwert/test_ws/build/voice_recognition/build/lib/voice_recognition\n'}
+[0.972628] (voice_recognition) StdoutLine: {'line': b'copying voice_recognition/voice_recog-background.py -> /home/qwert/test_ws/build/voice_recognition/build/lib/voice_recognition\n'}
+[0.972755] (voice_recognition) StdoutLine: {'line': b'copying voice_recognition/voice_recog.py -> /home/qwert/test_ws/build/voice_recognition/build/lib/voice_recognition\n'}
+[0.972884] (voice_recognition) StdoutLine: {'line': b'copying voice_recognition/__init__.py -> /home/qwert/test_ws/build/voice_recognition/build/lib/voice_recognition\n'}
+[0.972997] (gpt_clip) StdoutLine: {'line': b"reading manifest file '../../build/gpt_clip/gpt_clip.egg-info/SOURCES.txt'\n"}
+[0.973099] (gpt_node) StdoutLine: {'line': b'byte-compiling /home/qwert/test_ws/install/gpt_node/lib/python3.10/site-packages/gpt_node/__init__.py to __init__.cpython-310.pyc\n'}
+[0.973209] (voice_recognition) StdoutLine: {'line': b'running install\n'}
+[0.973300] (gpt_node) StdoutLine: {'line': b'running install_data\n'}
+[0.973411] (gpt_node) StdoutLine: {'line': b'creating /home/qwert/test_ws/install/gpt_node/share/ament_index\n'}
+[0.973523] (gpt_node) StdoutLine: {'line': b'creating /home/qwert/test_ws/install/gpt_node/share/ament_index/resource_index\n'}
+[0.973636] (gpt_node) StdoutLine: {'line': b'creating /home/qwert/test_ws/install/gpt_node/share/ament_index/resource_index/packages\n'}
+[0.973727] (gpt_node) StdoutLine: {'line': b'copying resource/gpt_node -> /home/qwert/test_ws/install/gpt_node/share/ament_index/resource_index/packages\n'}
+[0.973819] (voice_recognition) StdoutLine: {'line': b'running install_lib\n'}
+[0.973911] (gpt_node) StdoutLine: {'line': b'copying package.xml -> /home/qwert/test_ws/install/gpt_node/share/gpt_node\n'}
+[0.974019] (gpt_node) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.974114] (voice_recognition) StdoutLine: {'line': b'creating /home/qwert/test_ws/install/voice_recognition/lib/python3.10/site-packages/voice_recognition\n'}
+[0.974207] (gpt_clip) StdoutLine: {'line': b"writing manifest file '../../build/gpt_clip/gpt_clip.egg-info/SOURCES.txt'\n"}
+[0.974302] (voice_recognition) StdoutLine: {'line': b'copying /home/qwert/test_ws/build/voice_recognition/build/lib/voice_recognition/voice_recog-background.py -> /home/qwert/test_ws/install/voice_recognition/lib/python3.10/site-packages/voice_recognition\n'}
+[0.974415] (gpt_clip) StdoutLine: {'line': b'running build\n'}
+[0.974580] (gpt_clip) StdoutLine: {'line': b'running build_py\n'}
+[0.974723] (voice_recognition) StdoutLine: {'line': b'copying /home/qwert/test_ws/build/voice_recognition/build/lib/voice_recognition/voice_recog.py -> /home/qwert/test_ws/install/voice_recognition/lib/python3.10/site-packages/voice_recognition\n'}
+[0.974835] (voice_recognition) StdoutLine: {'line': b'copying /home/qwert/test_ws/build/voice_recognition/build/lib/voice_recognition/__init__.py -> /home/qwert/test_ws/install/voice_recognition/lib/python3.10/site-packages/voice_recognition\n'}
+[0.974931] (gpt_clip) StdoutLine: {'line': b'creating /home/qwert/test_ws/build/gpt_clip/build\n'}
+[0.975022] (gpt_clip) StdoutLine: {'line': b'creating /home/qwert/test_ws/build/gpt_clip/build/lib\n'}
+[0.975111] (gpt_clip) StdoutLine: {'line': b'creating /home/qwert/test_ws/build/gpt_clip/build/lib/gpt_clip\n'}
+[0.975203] (gpt_clip) StdoutLine: {'line': b'copying gpt_clip/gpt_clip_node.py -> /home/qwert/test_ws/build/gpt_clip/build/lib/gpt_clip\n'}
+[0.975316] (voice_recognition) StdoutLine: {'line': b'byte-compiling /home/qwert/test_ws/install/voice_recognition/lib/python3.10/site-packages/voice_recognition/voice_recog-background.py to voice_recog-background.cpython-310.pyc\n'}
+[0.975411] (gpt_clip) StdoutLine: {'line': b'copying gpt_clip/__init__.py -> /home/qwert/test_ws/build/gpt_clip/build/lib/gpt_clip\n'}
+[0.975501] (gpt_clip) StdoutLine: {'line': b'running install\n'}
+[0.975591] (gpt_node) StdoutLine: {'line': b'Copying ../../build/gpt_node/gpt_node.egg-info to /home/qwert/test_ws/install/gpt_node/lib/python3.10/site-packages/gpt_node-0.0.0-py3.10.egg-info\n'}
+[0.975683] (voice_recognition) StdoutLine: {'line': b'byte-compiling /home/qwert/test_ws/install/voice_recognition/lib/python3.10/site-packages/voice_recognition/voice_recog.py to voice_recog.cpython-310.pyc\n'}
+[0.975773] (gpt_clip) StdoutLine: {'line': b'running install_lib\n'}
+[0.975864] (gpt_node) StdoutLine: {'line': b'running install_scripts\n'}
+[0.975956] (voice_recognition) StdoutLine: {'line': b'byte-compiling /home/qwert/test_ws/install/voice_recognition/lib/python3.10/site-packages/voice_recognition/__init__.py to __init__.cpython-310.pyc\n'}
+[0.976058] (voice_recognition) StdoutLine: {'line': b'running install_data\n'}
+[0.976178] (gpt_clip) StdoutLine: {'line': b'creating /home/qwert/test_ws/install/gpt_clip/lib/python3.10/site-packages/gpt_clip\n'}
+[0.976303] (voice_recognition) StdoutLine: {'line': b'creating /home/qwert/test_ws/install/voice_recognition/share/ament_index\n'}
+[0.976416] (gpt_clip) StdoutLine: {'line': b'copying /home/qwert/test_ws/build/gpt_clip/build/lib/gpt_clip/gpt_clip_node.py -> /home/qwert/test_ws/install/gpt_clip/lib/python3.10/site-packages/gpt_clip\n'}
+[0.976539] (voice_recognition) StdoutLine: {'line': b'creating /home/qwert/test_ws/install/voice_recognition/share/ament_index/resource_index\n'}
+[0.976649] (voice_recognition) StdoutLine: {'line': b'creating /home/qwert/test_ws/install/voice_recognition/share/ament_index/resource_index/packages\n'}
+[0.976772] (voice_recognition) StdoutLine: {'line': b'copying resource/voice_recognition -> /home/qwert/test_ws/install/voice_recognition/share/ament_index/resource_index/packages\n'}
+[0.976881] (gpt_clip) StdoutLine: {'line': b'copying /home/qwert/test_ws/build/gpt_clip/build/lib/gpt_clip/__init__.py -> /home/qwert/test_ws/install/gpt_clip/lib/python3.10/site-packages/gpt_clip\n'}
+[0.976975] (voice_recognition) StdoutLine: {'line': b'copying package.xml -> /home/qwert/test_ws/install/voice_recognition/share/voice_recognition\n'}
+[0.977070] (voice_recognition) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.977160] (gpt_clip) StdoutLine: {'line': b'byte-compiling /home/qwert/test_ws/install/gpt_clip/lib/python3.10/site-packages/gpt_clip/gpt_clip_node.py to gpt_clip_node.cpython-310.pyc\n'}
+[0.977255] (gpt_clip) StdoutLine: {'line': b'byte-compiling /home/qwert/test_ws/install/gpt_clip/lib/python3.10/site-packages/gpt_clip/__init__.py to __init__.cpython-310.pyc\n'}
+[0.977351] (voice_recognition) StdoutLine: {'line': b'Copying ../../build/voice_recognition/voice_recognition.egg-info to /home/qwert/test_ws/install/voice_recognition/lib/python3.10/site-packages/voice_recognition-0.0.0-py3.10.egg-info\n'}
+[0.977459] (gpt_clip) StdoutLine: {'line': b'running install_data\n'}
+[0.977557] (gpt_clip) StdoutLine: {'line': b'creating /home/qwert/test_ws/install/gpt_clip/share/ament_index\n'}
+[0.977644] (gpt_clip) StdoutLine: {'line': b'creating /home/qwert/test_ws/install/gpt_clip/share/ament_index/resource_index\n'}
+[0.977731] (gpt_clip) StdoutLine: {'line': b'creating /home/qwert/test_ws/install/gpt_clip/share/ament_index/resource_index/packages\n'}
+[0.977818] (gpt_clip) StdoutLine: {'line': b'copying resource/gpt_clip -> /home/qwert/test_ws/install/gpt_clip/share/ament_index/resource_index/packages\n'}
+[0.977905] (gpt_clip) StdoutLine: {'line': b'copying package.xml -> /home/qwert/test_ws/install/gpt_clip/share/gpt_clip\n'}
+[0.977992] (gpt_clip) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.978078] (voice_recognition) StdoutLine: {'line': b'running install_scripts\n'}
+[0.978769] (gpt_clip) StdoutLine: {'line': b'Copying ../../build/gpt_clip/gpt_clip.egg-info to /home/qwert/test_ws/install/gpt_clip/lib/python3.10/site-packages/gpt_clip-0.0.0-py3.10.egg-info\n'}
+[0.979422] (gpt_clip) StdoutLine: {'line': b'running install_scripts\n'}
+[0.991322] (gpt_node) StdoutLine: {'line': b'Installing gpt_node script to /home/qwert/test_ws/install/gpt_node/lib/gpt_node\n'}
+[0.991567] (gpt_node) StdoutLine: {'line': b"writing list of installed files to '/home/qwert/test_ws/build/gpt_node/install.log'\n"}
+[0.994309] (voice_recognition) StdoutLine: {'line': b'Installing voice_recognition script to /home/qwert/test_ws/install/voice_recognition/lib/voice_recognition\n'}
+[0.994594] (voice_recognition) StdoutLine: {'line': b"writing list of installed files to '/home/qwert/test_ws/build/voice_recognition/install.log'\n"}
+[0.997593] (gpt_clip) StdoutLine: {'line': b'Installing gpt_clip script to /home/qwert/test_ws/install/gpt_clip/lib/gpt_clip\n'}
+[0.997956] (gpt_clip) StdoutLine: {'line': b"writing list of installed files to '/home/qwert/test_ws/build/gpt_clip/install.log'\n"}
+[1.001679] (-) TimerEvent: {}
+[1.019797] (gpt_node) CommandEnded: {'returncode': 0}
+[1.029729] (gpt_node) JobEnded: {'identifier': 'gpt_node', 'rc': 0}
+[1.031413] (voice_recognition) CommandEnded: {'returncode': 0}
+[1.035967] (voice_recognition) JobEnded: {'identifier': 'voice_recognition', 'rc': 0}
+[1.036713] (gpt_clip) CommandEnded: {'returncode': 0}
+[1.041319] (gpt_clip) JobEnded: {'identifier': 'gpt_clip', 'rc': 0}
+[1.041931] (-) EventReactorShutdown: {}

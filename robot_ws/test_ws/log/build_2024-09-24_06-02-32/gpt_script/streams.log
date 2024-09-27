@@ -1,0 +1,24 @@
+[0.580s] Invoking command in '/home/qwert/test_ws/src/gpt_script': PYTHONPATH=/home/qwert/test_ws/build/gpt_script/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qwert/test_ws/install/gpt_script/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gpt_script build --build-base /home/qwert/test_ws/build/gpt_script/build install --record /home/qwert/test_ws/build/gpt_script/install.log --single-version-externally-managed install_data
+[0.800s] running egg_info
+[0.801s] writing ../../build/gpt_script/gpt_script.egg-info/PKG-INFO
+[0.801s] writing dependency_links to ../../build/gpt_script/gpt_script.egg-info/dependency_links.txt
+[0.801s] writing entry points to ../../build/gpt_script/gpt_script.egg-info/entry_points.txt
+[0.801s] writing requirements to ../../build/gpt_script/gpt_script.egg-info/requires.txt
+[0.801s] writing top-level names to ../../build/gpt_script/gpt_script.egg-info/top_level.txt
+[0.803s] reading manifest file '../../build/gpt_script/gpt_script.egg-info/SOURCES.txt'
+[0.803s] adding license file 'LICENSE'
+[0.804s] writing manifest file '../../build/gpt_script/gpt_script.egg-info/SOURCES.txt'
+[0.804s] running build
+[0.804s] running build_py
+[0.804s] copying gpt_script/gpt_script.py -> /home/qwert/test_ws/build/gpt_script/build/lib/gpt_script
+[0.804s] running install
+[0.804s] running install_lib
+[0.805s] copying /home/qwert/test_ws/build/gpt_script/build/lib/gpt_script/gpt_script.py -> /home/qwert/test_ws/install/gpt_script/lib/python3.10/site-packages/gpt_script
+[0.805s] running install_data
+[0.806s] running install_egg_info
+[0.807s] removing '/home/qwert/test_ws/install/gpt_script/lib/python3.10/site-packages/gpt_script-0.0.0-py3.10.egg-info' (and everything under it)
+[0.807s] Copying ../../build/gpt_script/gpt_script.egg-info to /home/qwert/test_ws/install/gpt_script/lib/python3.10/site-packages/gpt_script-0.0.0-py3.10.egg-info
+[0.808s] running install_scripts
+[0.825s] Installing gpt_script script to /home/qwert/test_ws/install/gpt_script/lib/gpt_script
+[0.826s] writing list of installed files to '/home/qwert/test_ws/build/gpt_script/install.log'
+[0.847s] Invoked command in '/home/qwert/test_ws/src/gpt_script' returned '0': PYTHONPATH=/home/qwert/test_ws/build/gpt_script/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qwert/test_ws/install/gpt_script/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gpt_script build --build-base /home/qwert/test_ws/build/gpt_script/build install --record /home/qwert/test_ws/build/gpt_script/install.log --single-version-externally-managed install_data

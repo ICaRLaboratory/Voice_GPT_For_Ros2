@@ -1,0 +1,4 @@
+  File "/home/qwert/test_ws/install/voice_recognition/lib/python3.10/site-packages/voice_recognition/voice_recog.py", line 46
+    class VoiceRecognition(Node):
+SyntaxError: expected 'except' or 'finally' block
+

@@ -1,0 +1,38 @@
+[0.786s] Invoking command in '/home/qwert/test_ws/src/gpt_node': PYTHONPATH=/home/qwert/test_ws/build/gpt_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qwert/test_ws/install/gpt_node/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gpt_node build --build-base /home/qwert/test_ws/build/gpt_node/build install --record /home/qwert/test_ws/build/gpt_node/install.log --single-version-externally-managed install_data
+[0.961s] running egg_info
+[0.961s] creating ../../build/gpt_node/gpt_node.egg-info
+[0.961s] writing ../../build/gpt_node/gpt_node.egg-info/PKG-INFO
+[0.961s] writing dependency_links to ../../build/gpt_node/gpt_node.egg-info/dependency_links.txt
+[0.962s] writing entry points to ../../build/gpt_node/gpt_node.egg-info/entry_points.txt
+[0.962s] writing requirements to ../../build/gpt_node/gpt_node.egg-info/requires.txt
+[0.962s] writing top-level names to ../../build/gpt_node/gpt_node.egg-info/top_level.txt
+[0.962s] writing manifest file '../../build/gpt_node/gpt_node.egg-info/SOURCES.txt'
+[0.963s] reading manifest file '../../build/gpt_node/gpt_node.egg-info/SOURCES.txt'
+[0.963s] adding license file 'LICENSE'
+[0.964s] writing manifest file '../../build/gpt_node/gpt_node.egg-info/SOURCES.txt'
+[0.965s] running build
+[0.965s] running build_py
+[0.965s] creating /home/qwert/test_ws/build/gpt_node/build
+[0.965s] creating /home/qwert/test_ws/build/gpt_node/build/lib
+[0.965s] creating /home/qwert/test_ws/build/gpt_node/build/lib/gpt_node
+[0.965s] copying gpt_node/gpt_node.py -> /home/qwert/test_ws/build/gpt_node/build/lib/gpt_node
+[0.965s] copying gpt_node/__init__.py -> /home/qwert/test_ws/build/gpt_node/build/lib/gpt_node
+[0.966s] running install
+[0.966s] running install_lib
+[0.966s] creating /home/qwert/test_ws/install/gpt_node/lib/python3.10/site-packages/gpt_node
+[0.966s] copying /home/qwert/test_ws/build/gpt_node/build/lib/gpt_node/gpt_node.py -> /home/qwert/test_ws/install/gpt_node/lib/python3.10/site-packages/gpt_node
+[0.966s] copying /home/qwert/test_ws/build/gpt_node/build/lib/gpt_node/__init__.py -> /home/qwert/test_ws/install/gpt_node/lib/python3.10/site-packages/gpt_node
+[0.967s] byte-compiling /home/qwert/test_ws/install/gpt_node/lib/python3.10/site-packages/gpt_node/gpt_node.py to gpt_node.cpython-310.pyc
+[0.968s] byte-compiling /home/qwert/test_ws/install/gpt_node/lib/python3.10/site-packages/gpt_node/__init__.py to __init__.cpython-310.pyc
+[0.968s] running install_data
+[0.968s] creating /home/qwert/test_ws/install/gpt_node/share/ament_index
+[0.968s] creating /home/qwert/test_ws/install/gpt_node/share/ament_index/resource_index
+[0.968s] creating /home/qwert/test_ws/install/gpt_node/share/ament_index/resource_index/packages
+[0.968s] copying resource/gpt_node -> /home/qwert/test_ws/install/gpt_node/share/ament_index/resource_index/packages
+[0.969s] copying package.xml -> /home/qwert/test_ws/install/gpt_node/share/gpt_node
+[0.969s] running install_egg_info
+[0.970s] Copying ../../build/gpt_node/gpt_node.egg-info to /home/qwert/test_ws/install/gpt_node/lib/python3.10/site-packages/gpt_node-0.0.0-py3.10.egg-info
+[0.971s] running install_scripts
+[0.986s] Installing gpt_node script to /home/qwert/test_ws/install/gpt_node/lib/gpt_node
+[0.986s] writing list of installed files to '/home/qwert/test_ws/build/gpt_node/install.log'
+[1.015s] Invoked command in '/home/qwert/test_ws/src/gpt_node' returned '0': PYTHONPATH=/home/qwert/test_ws/build/gpt_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qwert/test_ws/install/gpt_node/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gpt_node build --build-base /home/qwert/test_ws/build/gpt_node/build install --record /home/qwert/test_ws/build/gpt_node/install.log --single-version-externally-managed install_data

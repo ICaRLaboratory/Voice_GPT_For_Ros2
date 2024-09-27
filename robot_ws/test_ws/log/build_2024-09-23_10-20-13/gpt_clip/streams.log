@@ -1,0 +1,37 @@
+[0.795s] Invoking command in '/home/qwert/test_ws/src/gpt_clip': PYTHONPATH=/home/qwert/test_ws/build/gpt_clip/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qwert/test_ws/install/gpt_clip/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gpt_clip build --build-base /home/qwert/test_ws/build/gpt_clip/build install --record /home/qwert/test_ws/build/gpt_clip/install.log --single-version-externally-managed install_data
+[0.967s] running egg_info
+[0.969s] creating ../../build/gpt_clip/gpt_clip.egg-info
+[0.969s] writing ../../build/gpt_clip/gpt_clip.egg-info/PKG-INFO
+[0.969s] writing dependency_links to ../../build/gpt_clip/gpt_clip.egg-info/dependency_links.txt
+[0.970s] writing entry points to ../../build/gpt_clip/gpt_clip.egg-info/entry_points.txt
+[0.970s] writing requirements to ../../build/gpt_clip/gpt_clip.egg-info/requires.txt
+[0.970s] writing top-level names to ../../build/gpt_clip/gpt_clip.egg-info/top_level.txt
+[0.971s] writing manifest file '../../build/gpt_clip/gpt_clip.egg-info/SOURCES.txt'
+[0.972s] reading manifest file '../../build/gpt_clip/gpt_clip.egg-info/SOURCES.txt'
+[0.974s] writing manifest file '../../build/gpt_clip/gpt_clip.egg-info/SOURCES.txt'
+[0.974s] running build
+[0.974s] running build_py
+[0.974s] creating /home/qwert/test_ws/build/gpt_clip/build
+[0.975s] creating /home/qwert/test_ws/build/gpt_clip/build/lib
+[0.975s] creating /home/qwert/test_ws/build/gpt_clip/build/lib/gpt_clip
+[0.975s] copying gpt_clip/gpt_clip_node.py -> /home/qwert/test_ws/build/gpt_clip/build/lib/gpt_clip
+[0.975s] copying gpt_clip/__init__.py -> /home/qwert/test_ws/build/gpt_clip/build/lib/gpt_clip
+[0.975s] running install
+[0.975s] running install_lib
+[0.976s] creating /home/qwert/test_ws/install/gpt_clip/lib/python3.10/site-packages/gpt_clip
+[0.976s] copying /home/qwert/test_ws/build/gpt_clip/build/lib/gpt_clip/gpt_clip_node.py -> /home/qwert/test_ws/install/gpt_clip/lib/python3.10/site-packages/gpt_clip
+[0.976s] copying /home/qwert/test_ws/build/gpt_clip/build/lib/gpt_clip/__init__.py -> /home/qwert/test_ws/install/gpt_clip/lib/python3.10/site-packages/gpt_clip
+[0.977s] byte-compiling /home/qwert/test_ws/install/gpt_clip/lib/python3.10/site-packages/gpt_clip/gpt_clip_node.py to gpt_clip_node.cpython-310.pyc
+[0.977s] byte-compiling /home/qwert/test_ws/install/gpt_clip/lib/python3.10/site-packages/gpt_clip/__init__.py to __init__.cpython-310.pyc
+[0.977s] running install_data
+[0.977s] creating /home/qwert/test_ws/install/gpt_clip/share/ament_index
+[0.977s] creating /home/qwert/test_ws/install/gpt_clip/share/ament_index/resource_index
+[0.977s] creating /home/qwert/test_ws/install/gpt_clip/share/ament_index/resource_index/packages
+[0.977s] copying resource/gpt_clip -> /home/qwert/test_ws/install/gpt_clip/share/ament_index/resource_index/packages
+[0.977s] copying package.xml -> /home/qwert/test_ws/install/gpt_clip/share/gpt_clip
+[0.977s] running install_egg_info
+[0.978s] Copying ../../build/gpt_clip/gpt_clip.egg-info to /home/qwert/test_ws/install/gpt_clip/lib/python3.10/site-packages/gpt_clip-0.0.0-py3.10.egg-info
+[0.979s] running install_scripts
+[0.997s] Installing gpt_clip script to /home/qwert/test_ws/install/gpt_clip/lib/gpt_clip
+[0.997s] writing list of installed files to '/home/qwert/test_ws/build/gpt_clip/install.log'
+[1.036s] Invoked command in '/home/qwert/test_ws/src/gpt_clip' returned '0': PYTHONPATH=/home/qwert/test_ws/build/gpt_clip/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qwert/test_ws/install/gpt_clip/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gpt_clip build --build-base /home/qwert/test_ws/build/gpt_clip/build install --record /home/qwert/test_ws/build/gpt_clip/install.log --single-version-externally-managed install_data

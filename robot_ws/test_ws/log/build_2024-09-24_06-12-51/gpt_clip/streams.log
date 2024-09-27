@@ -1,0 +1,21 @@
+[1.306s] Invoking command in '/home/qwert/test_ws/src/gpt_clip': PYTHONPATH=/home/qwert/test_ws/build/gpt_clip/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qwert/test_ws/install/gpt_clip/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gpt_clip build --build-base /home/qwert/test_ws/build/gpt_clip/build install --record /home/qwert/test_ws/build/gpt_clip/install.log --single-version-externally-managed install_data
+[1.576s] running egg_info
+[1.577s] writing ../../build/gpt_clip/gpt_clip.egg-info/PKG-INFO
+[1.577s] writing dependency_links to ../../build/gpt_clip/gpt_clip.egg-info/dependency_links.txt
+[1.577s] writing entry points to ../../build/gpt_clip/gpt_clip.egg-info/entry_points.txt
+[1.577s] writing requirements to ../../build/gpt_clip/gpt_clip.egg-info/requires.txt
+[1.577s] writing top-level names to ../../build/gpt_clip/gpt_clip.egg-info/top_level.txt
+[1.579s] reading manifest file '../../build/gpt_clip/gpt_clip.egg-info/SOURCES.txt'
+[1.580s] writing manifest file '../../build/gpt_clip/gpt_clip.egg-info/SOURCES.txt'
+[1.580s] running build
+[1.580s] running build_py
+[1.580s] running install
+[1.580s] running install_lib
+[1.581s] running install_data
+[1.582s] running install_egg_info
+[1.583s] removing '/home/qwert/test_ws/install/gpt_clip/lib/python3.10/site-packages/gpt_clip-0.0.0-py3.10.egg-info' (and everything under it)
+[1.583s] Copying ../../build/gpt_clip/gpt_clip.egg-info to /home/qwert/test_ws/install/gpt_clip/lib/python3.10/site-packages/gpt_clip-0.0.0-py3.10.egg-info
+[1.584s] running install_scripts
+[1.605s] Installing gpt_clip script to /home/qwert/test_ws/install/gpt_clip/lib/gpt_clip
+[1.605s] writing list of installed files to '/home/qwert/test_ws/build/gpt_clip/install.log'
+[1.640s] Invoked command in '/home/qwert/test_ws/src/gpt_clip' returned '0': PYTHONPATH=/home/qwert/test_ws/build/gpt_clip/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qwert/test_ws/install/gpt_clip/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gpt_clip build --build-base /home/qwert/test_ws/build/gpt_clip/build install --record /home/qwert/test_ws/build/gpt_clip/install.log --single-version-externally-managed install_data

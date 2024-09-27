@@ -1,0 +1,3 @@
+[console_scripts]
+gpt_clip = gpt_clip.gpt_clip_node:main
+

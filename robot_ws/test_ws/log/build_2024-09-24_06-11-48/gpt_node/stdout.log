@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/gpt_node/gpt_node.egg-info/PKG-INFO
+writing dependency_links to ../../build/gpt_node/gpt_node.egg-info/dependency_links.txt
+writing entry points to ../../build/gpt_node/gpt_node.egg-info/entry_points.txt
+writing requirements to ../../build/gpt_node/gpt_node.egg-info/requires.txt
+writing top-level names to ../../build/gpt_node/gpt_node.egg-info/top_level.txt
+reading manifest file '../../build/gpt_node/gpt_node.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/gpt_node/gpt_node.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/qwert/test_ws/install/gpt_node/lib/python3.10/site-packages/gpt_node-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/gpt_node/gpt_node.egg-info to /home/qwert/test_ws/install/gpt_node/lib/python3.10/site-packages/gpt_node-0.0.0-py3.10.egg-info
+running install_scripts
+Installing gpt_node script to /home/qwert/test_ws/install/gpt_node/lib/gpt_node
+writing list of installed files to '/home/qwert/test_ws/build/gpt_node/install.log'

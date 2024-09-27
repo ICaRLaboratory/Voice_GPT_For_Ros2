@@ -1,0 +1,25 @@
+[1.398s] Invoking command in '/home/qwert/test_ws/src/gpt_node': PYTHONPATH=/home/qwert/test_ws/build/gpt_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qwert/test_ws/install/gpt_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gpt_node build --build-base /home/qwert/test_ws/build/gpt_node/build install --record /home/qwert/test_ws/build/gpt_node/install.log --single-version-externally-managed install_data
+[1.666s] running egg_info
+[1.667s] writing ../../build/gpt_node/gpt_node.egg-info/PKG-INFO
+[1.667s] writing dependency_links to ../../build/gpt_node/gpt_node.egg-info/dependency_links.txt
+[1.668s] writing entry points to ../../build/gpt_node/gpt_node.egg-info/entry_points.txt
+[1.668s] writing requirements to ../../build/gpt_node/gpt_node.egg-info/requires.txt
+[1.668s] writing top-level names to ../../build/gpt_node/gpt_node.egg-info/top_level.txt
+[1.670s] reading manifest file '../../build/gpt_node/gpt_node.egg-info/SOURCES.txt'
+[1.670s] adding license file 'LICENSE'
+[1.671s] writing manifest file '../../build/gpt_node/gpt_node.egg-info/SOURCES.txt'
+[1.671s] running build
+[1.671s] running build_py
+[1.671s] copying gpt_node/gpt_node.py -> /home/qwert/test_ws/build/gpt_node/build/lib/gpt_node
+[1.671s] running install
+[1.672s] running install_lib
+[1.673s] copying /home/qwert/test_ws/build/gpt_node/build/lib/gpt_node/gpt_node.py -> /home/qwert/test_ws/install/gpt_node/lib/python3.10/site-packages/gpt_node
+[1.674s] byte-compiling /home/qwert/test_ws/install/gpt_node/lib/python3.10/site-packages/gpt_node/gpt_node.py to gpt_node.cpython-310.pyc
+[1.675s] running install_data
+[1.675s] running install_egg_info
+[1.677s] removing '/home/qwert/test_ws/install/gpt_node/lib/python3.10/site-packages/gpt_node-0.0.0-py3.10.egg-info' (and everything under it)
+[1.677s] Copying ../../build/gpt_node/gpt_node.egg-info to /home/qwert/test_ws/install/gpt_node/lib/python3.10/site-packages/gpt_node-0.0.0-py3.10.egg-info
+[1.678s] running install_scripts
+[1.705s] Installing gpt_node script to /home/qwert/test_ws/install/gpt_node/lib/gpt_node
+[1.705s] writing list of installed files to '/home/qwert/test_ws/build/gpt_node/install.log'
+[1.744s] Invoked command in '/home/qwert/test_ws/src/gpt_node' returned '0': PYTHONPATH=/home/qwert/test_ws/build/gpt_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qwert/test_ws/install/gpt_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gpt_node build --build-base /home/qwert/test_ws/build/gpt_node/build install --record /home/qwert/test_ws/build/gpt_node/install.log --single-version-externally-managed install_data

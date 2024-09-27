@@ -1,0 +1,3 @@
+[console_scripts]
+gpt_script = gpt_script.gpt_script:main
+

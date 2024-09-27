@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/voice_recognition/voice_recognition.egg-info
+writing ../../build/voice_recognition/voice_recognition.egg-info/PKG-INFO
+writing dependency_links to ../../build/voice_recognition/voice_recognition.egg-info/dependency_links.txt
+writing entry points to ../../build/voice_recognition/voice_recognition.egg-info/entry_points.txt
+writing requirements to ../../build/voice_recognition/voice_recognition.egg-info/requires.txt
+writing top-level names to ../../build/voice_recognition/voice_recognition.egg-info/top_level.txt
+writing manifest file '../../build/voice_recognition/voice_recognition.egg-info/SOURCES.txt'
+reading manifest file '../../build/voice_recognition/voice_recognition.egg-info/SOURCES.txt'
+writing manifest file '../../build/voice_recognition/voice_recognition.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/qwert/test_ws/build/voice_recognition/build
+creating /home/qwert/test_ws/build/voice_recognition/build/lib
+creating /home/qwert/test_ws/build/voice_recognition/build/lib/voice_recognition
+copying voice_recognition/voice_recog-background.py -> /home/qwert/test_ws/build/voice_recognition/build/lib/voice_recognition
+copying voice_recognition/voice_recog.py -> /home/qwert/test_ws/build/voice_recognition/build/lib/voice_recognition
+copying voice_recognition/__init__.py -> /home/qwert/test_ws/build/voice_recognition/build/lib/voice_recognition
+running install
+running install_lib
+creating /home/qwert/test_ws/install/voice_recognition/lib/python3.10/site-packages/voice_recognition
+copying /home/qwert/test_ws/build/voice_recognition/build/lib/voice_recognition/voice_recog-background.py -> /home/qwert/test_ws/install/voice_recognition/lib/python3.10/site-packages/voice_recognition
+copying /home/qwert/test_ws/build/voice_recognition/build/lib/voice_recognition/voice_recog.py -> /home/qwert/test_ws/install/voice_recognition/lib/python3.10/site-packages/voice_recognition
+copying /home/qwert/test_ws/build/voice_recognition/build/lib/voice_recognition/__init__.py -> /home/qwert/test_ws/install/voice_recognition/lib/python3.10/site-packages/voice_recognition
+byte-compiling /home/qwert/test_ws/install/voice_recognition/lib/python3.10/site-packages/voice_recognition/voice_recog-background.py to voice_recog-background.cpython-310.pyc
+byte-compiling /home/qwert/test_ws/install/voice_recognition/lib/python3.10/site-packages/voice_recognition/voice_recog.py to voice_recog.cpython-310.pyc
+byte-compiling /home/qwert/test_ws/install/voice_recognition/lib/python3.10/site-packages/voice_recognition/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/qwert/test_ws/install/voice_recognition/share/ament_index
+creating /home/qwert/test_ws/install/voice_recognition/share/ament_index/resource_index
+creating /home/qwert/test_ws/install/voice_recognition/share/ament_index/resource_index/packages
+copying resource/voice_recognition -> /home/qwert/test_ws/install/voice_recognition/share/ament_index/resource_index/packages
+copying package.xml -> /home/qwert/test_ws/install/voice_recognition/share/voice_recognition
+running install_egg_info
+Copying ../../build/voice_recognition/voice_recognition.egg-info to /home/qwert/test_ws/install/voice_recognition/lib/python3.10/site-packages/voice_recognition-0.0.0-py3.10.egg-info
+running install_scripts
+Installing voice_recognition script to /home/qwert/test_ws/install/voice_recognition/lib/voice_recognition
+writing list of installed files to '/home/qwert/test_ws/build/voice_recognition/install.log'

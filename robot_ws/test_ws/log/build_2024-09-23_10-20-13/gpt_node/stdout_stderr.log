@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/gpt_node/gpt_node.egg-info
+writing ../../build/gpt_node/gpt_node.egg-info/PKG-INFO
+writing dependency_links to ../../build/gpt_node/gpt_node.egg-info/dependency_links.txt
+writing entry points to ../../build/gpt_node/gpt_node.egg-info/entry_points.txt
+writing requirements to ../../build/gpt_node/gpt_node.egg-info/requires.txt
+writing top-level names to ../../build/gpt_node/gpt_node.egg-info/top_level.txt
+writing manifest file '../../build/gpt_node/gpt_node.egg-info/SOURCES.txt'
+reading manifest file '../../build/gpt_node/gpt_node.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/gpt_node/gpt_node.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/qwert/test_ws/build/gpt_node/build
+creating /home/qwert/test_ws/build/gpt_node/build/lib
+creating /home/qwert/test_ws/build/gpt_node/build/lib/gpt_node
+copying gpt_node/gpt_node.py -> /home/qwert/test_ws/build/gpt_node/build/lib/gpt_node
+copying gpt_node/__init__.py -> /home/qwert/test_ws/build/gpt_node/build/lib/gpt_node
+running install
+running install_lib
+creating /home/qwert/test_ws/install/gpt_node/lib/python3.10/site-packages/gpt_node
+copying /home/qwert/test_ws/build/gpt_node/build/lib/gpt_node/gpt_node.py -> /home/qwert/test_ws/install/gpt_node/lib/python3.10/site-packages/gpt_node
+copying /home/qwert/test_ws/build/gpt_node/build/lib/gpt_node/__init__.py -> /home/qwert/test_ws/install/gpt_node/lib/python3.10/site-packages/gpt_node
+byte-compiling /home/qwert/test_ws/install/gpt_node/lib/python3.10/site-packages/gpt_node/gpt_node.py to gpt_node.cpython-310.pyc
+byte-compiling /home/qwert/test_ws/install/gpt_node/lib/python3.10/site-packages/gpt_node/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/qwert/test_ws/install/gpt_node/share/ament_index
+creating /home/qwert/test_ws/install/gpt_node/share/ament_index/resource_index
+creating /home/qwert/test_ws/install/gpt_node/share/ament_index/resource_index/packages
+copying resource/gpt_node -> /home/qwert/test_ws/install/gpt_node/share/ament_index/resource_index/packages
+copying package.xml -> /home/qwert/test_ws/install/gpt_node/share/gpt_node
+running install_egg_info
+Copying ../../build/gpt_node/gpt_node.egg-info to /home/qwert/test_ws/install/gpt_node/lib/python3.10/site-packages/gpt_node-0.0.0-py3.10.egg-info
+running install_scripts
+Installing gpt_node script to /home/qwert/test_ws/install/gpt_node/lib/gpt_node
+writing list of installed files to '/home/qwert/test_ws/build/gpt_node/install.log'

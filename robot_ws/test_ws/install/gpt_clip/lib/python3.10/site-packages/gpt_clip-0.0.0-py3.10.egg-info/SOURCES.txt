@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/gpt_clip/gpt_clip.egg-info/PKG-INFO
+../../build/gpt_clip/gpt_clip.egg-info/SOURCES.txt
+../../build/gpt_clip/gpt_clip.egg-info/dependency_links.txt
+../../build/gpt_clip/gpt_clip.egg-info/entry_points.txt
+../../build/gpt_clip/gpt_clip.egg-info/requires.txt
+../../build/gpt_clip/gpt_clip.egg-info/top_level.txt
+../../build/gpt_clip/gpt_clip.egg-info/zip-safe
+gpt_clip/__init__.py
+gpt_clip/gpt_clip_node.py
+resource/gpt_clip
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
