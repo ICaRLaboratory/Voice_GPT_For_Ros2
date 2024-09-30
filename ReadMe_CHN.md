@@ -88,6 +88,7 @@ $export DISPLAY=:0
 $xhost +
 ~~~
 此过程在 Ubuntu 会话结束时初始化， 因此每次运行前必须禁用访问控制
+
 2. 然后通过以下过程运行烧瓶服务器。 
 ~~~
 $export FLASK_APP=app.py
@@ -111,6 +112,7 @@ $ros2 pkg create --build-type ament_python --license Apache-2.0 --node-name {패
 $ros2 run gpt_node gpt_node
 ~~~
 这样的话gpt_node会监视电脑的文件和gpt网站
+
 4. 运行其他终端并执行以下过程
 
 然后选择gpt网站的LIMO assistant打开聊天窗口，在终端上执行以下命令

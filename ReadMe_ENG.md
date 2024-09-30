@@ -88,6 +88,7 @@ $export DISPLAY=:0
 $xhost +
 ~~~
 This process is initialized at the end of the Ubuntu session, so you must disable access control before each run
+
 2. And run the flask server through the following process 
 ~~~
 $export FLASK_APP=app.py
@@ -111,6 +112,7 @@ The execution command is
 $ros2 run gpt_node gpt_node
 ~~~
 This will now allow gpt_node to monitor files and gpt sites on your computer
+
 4. Run a different terminal and proceed with the following process
 
 Then, select LIMO assistant on the gpt site to open the chat window and execute the following command from the terminal

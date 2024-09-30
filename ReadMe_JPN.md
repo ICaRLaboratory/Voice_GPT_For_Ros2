@@ -88,6 +88,7 @@ $export DISPLAY=:0
 $xhost +
 ~~~
 このプロセスは、Ubuntuセッションが終了すると初期化されるため、毎回実行前のアクセス制御を無効にする必要があります
+
 2. そして、以下のプロセスを通じてフラスコサーバーを実行します 
 ~~~
 $export FLASK_APP=app.py
@@ -111,6 +112,7 @@ $ros2 pkg create --build-type ament_python --license Apache-2.0 --node-name {패
 $ros2 run gpt_node gpt_node
 ~~~
 こうなるとgpt_nodeがパソコンのファイルとgptサイトを監視するようになります
+
 4. 別のターミナルを実行し、次の手順に進みます
 
 次に、gptサイトのLIMO assistantを選択してチャットウィンドウを開き、ターミナルで以下の命令を実行します

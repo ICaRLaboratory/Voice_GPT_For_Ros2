@@ -69,7 +69,7 @@ ii. voice_recognition 패키지가 저장한 텍스트 파일을 gpt에 입력
 ~~~
 gpt_cilp/gpt_cilp/gpt_clip_node.py
 ~~~
-14, 25, 52번 줄 에 해당하는 부분을 사용하는 이름으로 변경하여 사용
+14, 25, 52번 줄에 해당하는 부분을 사용하는 이름으로 변경하여 사용
 ~~~
 gpt_node/gpt_node/gpt_node.py
 ~~~
@@ -88,6 +88,7 @@ $export DISPLAY=:0
 $xhost +
 ~~~
 이 과정은 우분투 세션이 종료 될 경우 초기화 되므로 매번 실행 전 접근 제어를 비활성화 해야합니다
+
 2. 그리고 아래의 과정을 통해 플라스크 서버를 실행합니다 
 ~~~
 $export FLASK_APP=app.py
@@ -110,7 +111,8 @@ $ros2 pkg create --build-type ament_python --license Apache-2.0 --node-name {패
 ~~~
 $ros2 run gpt_node gpt_node
 ~~~
-이렇게 되면 이제 gpt_node가 컴퓨터의 파일과 gpt 사이트를 감시하게 됩니다
+이제 gpt_node가 컴퓨터의 파일과 gpt 사이트를 감시하게 됩니다
+
 4. 다른 터미널을 실행하고 다음의 과정을 진행합니다
 
 그 다음 gpt 사이트의 LIMO assistant를 선택해 채팅창을 열고 터미널에서 이하의 명령을 실행합니다
